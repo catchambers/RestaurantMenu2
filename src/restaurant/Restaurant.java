@@ -13,7 +13,13 @@ public class Restaurant {
 
         Menu menuItems = new Menu();
 
+        menuItems.addItem(cheeseBurger);
+        menuItems.addItem(funnelCake);
+        System.out.println(menuItems);
+        System.out.println(funnelCake);
 
+        menuItems.removeItem(cheeseBurger);
+        System.out.println(menuItems);
     }
 
 }
